@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ucapan 17 Agustus</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/736x/f3/69/5a/f3695a1b6f82438f167f0317549a669e.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #fc2109;
+  }
+  
+  p {
+    color: #0a0a0a;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: #f80303;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Selamat Hari Kemerdekaan!</h1>
+  <p>Merdeka! Merdeka! Tanah airku, negeri ku yang kucinta.</p>
+  <p>Dirgahayu Indonesia yang ke-76</p>
+  <button id="ucapanButton">Tampilkan Ucapan</button>
+  <p id="ucapan" style="display: none;">Semoga Indonesia selalu menjadi negara yang maju dan sejahtera!</p>
+</div>
+
+<script>
+  const ucapanButton = document.getElementById('ucapanButton');
+  const ucapanText = document.getElementById('ucapan');
+  
+  ucapanButton.addEventListener('click', function() {
+    ucapanText.style.display = 'block';
+  });
+</script>
+</body>
+</html>
